@@ -9,3 +9,9 @@ class Estudiante {
     int edad;
     float promedio;
 }
+
+void mostrarEstudiante() const {
+    std::cout << "Nombre: " << nombre << std::endl;
+    std::cout << "Edad: " << edad << std::endl;
+    std::cout << "Promedio: " << promedio << std::endl;
+}
