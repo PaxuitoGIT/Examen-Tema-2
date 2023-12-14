@@ -14,3 +14,11 @@ void mostrarEstudiante() const {
     std::cout << "Edad: " << edad << std::endl;
     std::cout << "Promedio: " << promedio << std::endl;
 }
+
+struct Materia {
+    std::string nombre;
+}
+
+void agregarMateria(const Materia& materia) {
+    materias.push_back(materia);
+}
