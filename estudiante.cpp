@@ -1,4 +1,3 @@
-#pragma once
 #include <iostream>
 #include <string>
 #include <vector>
@@ -25,11 +24,17 @@ public:
     }
 
     void eliminarMateria(const std::string& nombreMateria) {
-        for (int i = 0; i < materias.size(); i++) {
-            if (materias[i].nombre == nombreMateria) {
-                materias.erase(materias.begin() + i);
-                break;
-            }
+    for (std::size_t i = 0; i < materias.size(); i++) {
+        if (materias[i].nombre == nombreMateria) {
+            materias.erase(materias.begin() + i);
+            break;
         }
     }
+}
+    
+    void mostrarMaterias() const {
+    for (std::size_t i = 0; i < materias.size(); i++) {
+        std::cout << materias[i].nombre << std::endl;
+    }
+}
 };
