@@ -10,7 +10,7 @@ struct Asistencia {
     std::string fecha;
     std::string materia;
     std::string estado;
-}
+};
 
 class Estudiante {
 public:
@@ -18,6 +18,7 @@ public:
     int edad;
     float promedio;
     std::vector<Materia> materias;
+    std::vector<Asistencia> asistencias;
 
     void mostrarEstudiante() const {
         std::cout << "Nombre: " << nombre << std::endl;
@@ -52,3 +53,4 @@ public:
             std::cout << asistencias[i].fecha << " - " << asistencias[i].materia << " - " << asistencias[i].estado << std::endl;
         }
     }
+};
