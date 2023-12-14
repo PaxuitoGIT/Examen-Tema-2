@@ -6,6 +6,12 @@ struct Materia {
     std::string nombre;
 };
 
+struct Asistencia {
+    std::string fecha;
+    std::string materia;
+    std::string estado;
+}
+
 class Estudiante {
 public:
     std::string nombre;
@@ -37,4 +43,12 @@ public:
         std::cout << materias[i].nombre << std::endl;
     }
 }
-};
+    void registrarAsistencia(const Asistencia& asistencia) {
+        asistencias.push_back(asistencia);
+    }
+
+    void mostrarAsistencias() const {
+        for (std::size_t i = 0; i < asistencias.size(); i++) {
+            std::cout << asistencias[i].fecha << " - " << asistencias[i].materia << " - " << asistencias[i].estado << std::endl;
+        }
+    }
