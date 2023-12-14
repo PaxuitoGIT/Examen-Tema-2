@@ -8,7 +8,6 @@ class Estudiante {
     std::string nombre;
     int edad;
     float promedio;
-}
 
 void mostrarEstudiante() const {
     std::cout << "Nombre: " << nombre << std::endl;
