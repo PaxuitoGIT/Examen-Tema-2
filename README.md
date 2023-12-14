@@ -1,5 +1,7 @@
 # Examen-Tema-2
 
+Se puede acceder al link desde aquí: https://github.com/PaxuitoGIT/Examen-Tema-2
+
 # Parte 1: Preguntas de elección múltiple (20%)
 
 ## 1.¿Cuál es la principal diferencia entre la estructura básica del programa en C y C++?
