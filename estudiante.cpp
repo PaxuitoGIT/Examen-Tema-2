@@ -8,6 +8,7 @@ class Estudiante {
     std::string nombre;
     int edad;
     float promedio;
+    std::vector<Materia> materias;
 
 void mostrarEstudiante() const {
     std::cout << "Nombre: " << nombre << std::endl;
@@ -22,3 +23,13 @@ struct Materia {
 void agregarMateria(const Materia& materia) {
     materias.push_back(materia);
 }
+
+void eliminarMateria(const std::string& nombreMateria) {
+    for (int i = 0; i < materias.size(); i++) {
+        if (materias[i].nombre == nombreMateria) {
+            materias.erase(materias.begin() + i);
+            break;
+        }
+    }
+}
+};
