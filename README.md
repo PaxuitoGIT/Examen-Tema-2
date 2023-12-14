@@ -19,3 +19,38 @@ d) Una plantilla para crear objetos, proporciona una definición inicial para el
 b) Permiten la creación de funciones y clases genéricas, es decir, que pueden trabajar con cualquier tipo de datos.
 
 # Parte 2: Pregunta de desarrollo de código (80%)
+
+## Estructura del Estudiante:
+
+### C++:
+
+Se puede usar la palabra **class** y utilizar **std::string** para manejar cadenas de caracteres
+
+Se usa **std::cout** para imprimir
+
+### C: 
+
+Se define con **struct** y utiliza **char[]** para manejar cadenas de caracteres
+
+Se utiliza **printf** para imprimir
+
+## Conclusión:
+
+### ¿Cuál de los dos lenguajes consideras más adecuado para el proyecto del CGEA?
+
+Generalmente, es recomendable usar C++ debido a su amplia variedad de bibliotecas y su uso de punteros inteligentes, manejos de memoria automática y poder manejar un código más complejo.
+
+### ¿Qué recomendaciones harías al equipo de desarrollo del CGEA para la siguiente fase del proyecto?
+
+#### Mejora de Idiomas y Fechas:
+
+Adapta el sistema para que funcione bien con varios idiomas y formatos de fecha, así cada estudiante puede usarlo más cómodamente.
+
+#### Conexión con Herramientas Culturales:
+
+Enlaza el sistema con herramientas que reconozcan y respeten diferentes culturas, así la información se muestra de manera más relevante y respetuosa.
+
+#### Panel de Control Interactivo:
+
+Crea un panel de control fácil de usar que muestre información útil sobre la diversidad de estudiantes, ayudando a tomar decisiones más informadas para mejorar su experiencia académica.
+
