@@ -14,3 +14,16 @@ public:
         return "Error: Materia no registrada.";
     }
 };
+
+int main() {
+    try { throw FechaInvalidaException();
+          throw MateriaNoRegistradaException();
+} 
+catch (const FechaInvalidaException& e) {
+        std::cerr << e.what() << std::endl;
+    } catch (const MateriaNoRegistradaException& e) {
+        std::cerr << e.what() << std::endl;
+    }
+
+    return 0;
+}
